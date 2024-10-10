@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-nav-section1 {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    background-color:  #2c74f4;
+    background-size: cover;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1030;
+}
+.flipkart-logo {
+    background-image: url("images/flipkart_logo.png");
+    height: 38px;
+    background-size: cover;
+    width: 110px;
+}
+
+.input-section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.search-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: dodgerblue;
+    background-color: white;
+    height: 36px;
+    width: 40px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    /* border: 1px solid black; */
+}
+.nav-search-input {
+    background-color: white;
+    height: 36px;
+    width: 480px;
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-size: 13px;
+    padding-left: 12px;
+    outline: none;
+}
+.login-section {
+    width: 500px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin-left: 18px;
+}
+
+.login-text {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    width: 100px;
+    height: 30px;
+    color: dodgerblue;
+    font-weight: bold;
+}
+.nav-logos {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+.login_nav_bottom_Setion {
+    height: 40px;
+    background-color: #ffffff;
+    border-bottom: 0.1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-top: 60px;
+}
+.login_nav_bottom_Setion-item {
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/* login - section starts here */
+
+.login-section-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.login-section-left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #2874F0;
+    height: 70vh;
+    width: 20vw;
+    padding: 30px 20px 30px 25px;
+    box-shadow:  5px 5px 0px 0px #eeeded;
+}
+.login-section-right-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    height: 70vh;
+    width: 30vw;
+    box-shadow:  5px 5px #eeeded;
+    padding: 25px;
+    padding-top: 50px;
+}
+.login-section-right-part h5{
+    color: #878787;
+    font-size: 16px;
+}
+.login-section-right-part p{
+    margin-top: 25px;
+    font-size: 11px;
+    color: #878787;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-section-right-part a{
+    text-decoration: none;
+}
+.login-section-right-part input{
+    color: #878787;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 20px;
+    cursor: text;
+    padding: 15px;
+    border-color: #e6e6e6;
+    padding-left: 0;
+}
+.login-section-left-part h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+.login-section-left-part p {
+    color: #DBDBDB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 15px;
+}
+.login-section-right-part button {
+    background-color: #FB641B;
+    width: 100%;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+.login_Section-img {
+    background-image: url("images/login_page_img.png");
+    background-size: cover;
+    height: 35vh;
+    margin-top: 55px;
+}
+.login-search-input {
+    background-color: white;
+    height: 60px;
+    width: 480px;
+    /* border: none; */
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-size: 15px;
+    padding-left: 12px;
+    outline: none;
+}
+.Create_account {
+    color: #2874F0;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 550;
+    cursor: pointer;
+}
+#loginInputDescription {
+    font-size: 12px;
+    font-weight: bold;
+}
+/* login - section ends here */
+
+
+/*** Footer Section ****/
+.footer-section {
+    height: 42vh;
+    width: 100%;
+    background-color: #142434;
+    padding: 25px;
+}
+.footer_inner_Section {
+    height: 100%;
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_Section_sub_container1 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+}
+.footer_Section_sub_container2 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-left: 1px solid #4c4a4a;
+}
+.footer-section-details_container {
+    width: 48%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer-section-details_container p {
+    color: #878787;
+    margin-bottom: 0;
+    padding-bottom: 9px;
+    font-weight: 600;
+}
+.footer-section-details_container li {
+    font-size: 13px;
+    color: white;
+    font-weight: 600
+}
+.footer-section-details_container2 {
+    width: 48%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 0;
+
+}
+.footer-section-details_container2 p {
+    color: #878787;
+    margin-bottom: 0;
+    padding-bottom: 9px;
+    font-weight: 600;
+}
+.footer-section-details_container2 li {
+    font-size: 13px;
+    color: white;
+    font-weight: 600
+}
+.footer_Section_social_media_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    padding-left: 30px;
+}
+.footer_Section_social_media_icons i{
+    color: white;
+    margin-right: 25px;
+    font-size: 1.4rem;
+}
+.bottom_Section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    background-color: #142434;
+    border-top: 1px solid #878787;
+}
+.bottom_Section_part {
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+    width: 180px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+}
+.bottom_Section_part i{
+    margin-top: 5px;
+    color: gold;
+}
+
+.bottom_section_cards_img {
+    background-image: url("images/visaCards_bottom_Section_img.png");
+    background-size: contain;
+    height: 20px;
+    width: 320px;
+}
