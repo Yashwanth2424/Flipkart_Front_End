@@ -19,7 +19,7 @@
     z-index: 1030;
 }
 .flipkart-logo {
-    background-image: url("images/flipkart-logo.png");
+    background-image: url("/Home_section/images/flipkart-logo.png");
     height: 40px;
     background-size: cover;
     width: 120px;
