@@ -144,6 +144,56 @@
     align-items: center;
     font-size: 16px;
 }
+.nav-menu-icon {
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.nav-menu-icon:hover {
+    border: 1px solid #dbdada;
+    color: black;
+    border-radius: 5px;
+    background-color: #fff9f9;
+}
+.nav-menu-icon:hover .nav-menu-icon-dropdown {
+    display: block;
+}
+.nav-menu-icon-dropdown {
+    display: none;
+    background-color: white;
+    position: absolute;
+    top: 57px;
+    right: 90px;
+    min-width: 200px;
+    box-shadow: 2px 2px 2px 2px #F4F4F4;
+    z-index: 1020;
+    border: 1px solid #e1dcdc;
+    border-radius: 5px;
+}
+.nav-menu-icon-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 9px 13px 9px 13px;   
+}
+.nav-menu-icon-options:hover {
+    background-color: #f4f1f1;
+}
+.nav-menu-icon-options p{
+    margin-top: 14px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.nav-menu-icon-options p {
+    margin: 0px 0px 0px 12px;
+    font-size: 14px;
+}
+
 .login-text {
     font-size: 16px;
     margin-top: 5px;
